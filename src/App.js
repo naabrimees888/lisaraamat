@@ -7,7 +7,7 @@ function App() {
   const [books, setBooks] = useState([
     { id: 1, title: 'Kuidas saavutada finantsvabadus', author: 'Kristi Saare', imageURL: 'https://apl-api.apollo.ee/img/600/744/resize/catalog/product//9/7/9789916982587.jpg' },
   ]);
-  const [selectedBook, setSelectedBook] = useState(null);
+  const [selectedBook, setSelectedBook] = useState(books[0]);
 
   const addBook = (title, author, imageURL) => {
     const newBook = {
