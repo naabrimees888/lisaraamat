@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lisaraamat/static/css/main.70eee5d2.css",
+    "main.css": "/lisaraamat/static/css/main.0f22294c.css",
     "main.js": "/lisaraamat/static/js/main.c699509f.js",
     "static/js/453.9bb603b5.chunk.js": "/lisaraamat/static/js/453.9bb603b5.chunk.js",
     "index.html": "/lisaraamat/index.html",
-    "main.70eee5d2.css.map": "/lisaraamat/static/css/main.70eee5d2.css.map",
+    "main.0f22294c.css.map": "/lisaraamat/static/css/main.0f22294c.css.map",
     "main.c699509f.js.map": "/lisaraamat/static/js/main.c699509f.js.map",
     "453.9bb603b5.chunk.js.map": "/lisaraamat/static/js/453.9bb603b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70eee5d2.css",
+    "static/css/main.0f22294c.css",
     "static/js/main.c699509f.js"
   ]
 }
