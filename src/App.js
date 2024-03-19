@@ -35,7 +35,7 @@ function App() {
         {selectedBook && (
           <div className='book'>
             <h2>{selectedBook.title}</h2>
-            <p>Autor: {selectedBook.author}</p>
+            <p><strong>Autor:</strong> {selectedBook.author}</p>
             <img src={selectedBook.imageURL} alt={selectedBook.title} />
           </div>
         )}

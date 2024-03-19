@@ -7,8 +7,8 @@ function BooksList({ books, onBookClick }) {
       <ul>
         {books.map(book => (
           <li key={book.id} onClick={() => onBookClick(book.id)}>
-            Pealkiri: {book.title} <br />
-            Autor: {book.author}
+            <p><strong>Pealkiri:</strong> {book.title}</p>
+            <p><strong>Autor:</strong> {book.author}</p>
           </li>
         ))}
       </ul>
