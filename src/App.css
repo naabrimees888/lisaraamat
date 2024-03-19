@@ -11,6 +11,7 @@
   border: 1px solid black;
   border-radius: 0.5rem;
   display: flex;
+  box-shadow: 5px 5px 18px #888888;
 }
 
 li {
@@ -23,13 +24,19 @@ li {
   color: #144951;
 }
 
+li:hover {
+  background-color: #eeecec;
+}
+
 .books-list {
   margin: 1rem;
   max-width: 20rem;
 }
 
 .book-details {
-  border-left: 1px solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-left: 1px solid #144951;
   display: flex;
   justify-content: center;
   width: 28rem;
@@ -38,7 +45,7 @@ li {
 .book-details img {
   max-width: 15rem;
   border-radius: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 1rem;  
 }
 
 .book {
@@ -50,8 +57,10 @@ li {
 }
 
 .addBook {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #144951;
 }
 
 .addBook input {
